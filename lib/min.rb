@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  alphabetical_order_groceries.min 
+  groceries.values.flattern.min 
 end
